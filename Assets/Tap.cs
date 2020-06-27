@@ -20,7 +20,7 @@ public class Tap : MonoBehaviour
 
     void RotateIco()
     {        
-        _ico.transform.Rotate(new Vector3(-1f, 0, 0) * Time.deltaTime);
+        _ico.transform.Rotate(new Vector3(-2f, 0, 0) * Time.deltaTime);
     }
 
     private void Update()
